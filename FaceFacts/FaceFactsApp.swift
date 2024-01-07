@@ -5,6 +5,7 @@
 //  Created by Leo  on 06.01.24.
 //
 
+import SwiftData
 import SwiftUI
 
 @main
@@ -13,5 +14,6 @@ struct FaceFactsApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: Person.self)
     }
 }

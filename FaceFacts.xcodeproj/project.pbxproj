@@ -11,6 +11,12 @@
 		B3434CCD2B498BCB005ADA24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3434CCC2B498BCB005ADA24 /* ContentView.swift */; };
 		B3434CCF2B498BCD005ADA24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3434CCE2B498BCD005ADA24 /* Assets.xcassets */; };
 		B3434CD22B498BCD005ADA24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3434CD12B498BCD005ADA24 /* Preview Assets.xcassets */; };
+		B3434CD92B498F6F005ADA24 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3434CD82B498F6F005ADA24 /* Person.swift */; };
+		B3434CDB2B4995D0005ADA24 /* EditPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3434CDA2B4995D0005ADA24 /* EditPersonView.swift */; };
+		B34D5E402B4A9927009978A1 /* PeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D5E3F2B4A9927009978A1 /* PeopleView.swift */; };
+		B34D5E422B4AE1A3009978A1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D5E412B4AE1A3009978A1 /* Event.swift */; };
+		B34D5E442B4AE3CB009978A1 /* EditEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D5E432B4AE3CB009978A1 /* EditEventView.swift */; };
+		B34D5E462B4AF0DB009978A1 /* Previewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34D5E452B4AF0DB009978A1 /* Previewer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		B3434CCC2B498BCB005ADA24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3434CCE2B498BCD005ADA24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3434CD12B498BCD005ADA24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3434CD82B498F6F005ADA24 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B3434CDA2B4995D0005ADA24 /* EditPersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPersonView.swift; sourceTree = "<group>"; };
+		B34D5E3F2B4A9927009978A1 /* PeopleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleView.swift; sourceTree = "<group>"; };
+		B34D5E412B4AE1A3009978A1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		B34D5E432B4AE3CB009978A1 /* EditEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEventView.swift; sourceTree = "<group>"; };
+		B34D5E452B4AF0DB009978A1 /* Previewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previewer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				B3434CCA2B498BCB005ADA24 /* FaceFactsApp.swift */,
 				B3434CCC2B498BCB005ADA24 /* ContentView.swift */,
+				B34D5E3F2B4A9927009978A1 /* PeopleView.swift */,
+				B3434CDA2B4995D0005ADA24 /* EditPersonView.swift */,
+				B34D5E432B4AE3CB009978A1 /* EditEventView.swift */,
+				B3434CD82B498F6F005ADA24 /* Person.swift */,
+				B34D5E412B4AE1A3009978A1 /* Event.swift */,
+				B34D5E452B4AF0DB009978A1 /* Previewer.swift */,
 				B3434CCE2B498BCD005ADA24 /* Assets.xcassets */,
 				B3434CD02B498BCD005ADA24 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3434CD92B498F6F005ADA24 /* Person.swift in Sources */,
+				B34D5E402B4A9927009978A1 /* PeopleView.swift in Sources */,
 				B3434CCD2B498BCB005ADA24 /* ContentView.swift in Sources */,
+				B34D5E462B4AF0DB009978A1 /* Previewer.swift in Sources */,
 				B3434CCB2B498BCB005ADA24 /* FaceFactsApp.swift in Sources */,
+				B34D5E422B4AE1A3009978A1 /* Event.swift in Sources */,
+				B3434CDB2B4995D0005ADA24 /* EditPersonView.swift in Sources */,
+				B34D5E442B4AE3CB009978A1 /* EditEventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
